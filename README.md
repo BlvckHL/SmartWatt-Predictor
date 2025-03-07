@@ -27,7 +27,7 @@ SmartWatt Predictor est un système d'intelligence artificielle conçu pour pré
 
 1. Clonez le repository :
 ```bash
-git clone https://github.com/votre-username/SmartWatt-Predictor.git
+git clone https://github.com/BlvckHL/SmartWatt-Predictor.git
 cd SmartWatt-Predictor
 ```
 
