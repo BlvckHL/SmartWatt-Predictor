@@ -302,6 +302,8 @@ plt.tight_layout()
 plt.savefig('predictions_futures.png')
 print("Figure 'predictions_futures.png' sauvegardée.")
 
+predictions_futures.to_csv('predictions_futures.csv', index=False)  
+
 # ÉTAPE 8: CONCLUSION
 print("\nÉTAPE 8: CONCLUSION")
 print("-" * 50)

@@ -36,6 +36,7 @@ cd SmartWatt-Predictor
 pip install -r requirements.txt
 ```
 
+
 ## 📊 Structure du Projet
 ```
 SmartWatt-Predictor/
@@ -50,6 +51,10 @@ SmartWatt-Predictor/
 Exécutez le script principal :
 ```bash
 python main.py
+```
+Ensuite, pour lancer le tableau de bord, exécutez :
+```bash
+python SmartWattDashboard.py
 ```
 
 ## 📈 Visualisations Générées
