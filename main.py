@@ -16,7 +16,7 @@ print("-" * 50)
 # Charger les données (nous supposons que le fichier CSV est dans le répertoire courant)
 # index_col=0 indique que la première colonne doit être utilisée comme index
 # parse_dates=True convertit les dates en objets datetime
-data = pd.read_csv('energy_data.csv', index_col=0, parse_dates=True)
+data = pd.read_csv('energy_data1.csv', index_col=0, parse_dates=True)
 
 # Afficher les 5 premières lignes du jeu de données
 print("Aperçu du jeu de données:")
