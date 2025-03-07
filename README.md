@@ -81,6 +81,56 @@ Le fichier `energy_data.csv` doit contenir les colonnes suivantes :
 - `jour_semaine` - Jour de la semaine (0-6)
 - `heure` - Heure de la journée (0-23)
 
+## 📖 Guide Détaillé du Fonctionnement
+
+### 1. Les Données Utilisées 📊
+Le système analyse les données suivantes :
+- Température ambiante
+- Taux d'humidité
+- Présence de personnes (détection binaire)
+- Niveau d'éclairage naturel
+- Horodatage (heure et jour)
+- Historique de consommation électrique
+
+### 2. Processus de Fonctionnement 🔄
+
+#### A. Phase de Préparation
+- Chargement des données historiques
+- Création de visualisations :
+  * Graphiques de tendances
+  * Analyses de corrélation
+  * Patterns de consommation journaliers
+
+#### B. Phase d'Apprentissage
+Le modèle Random Forest :
+- Analyse les données historiques
+- Détecte les patterns récurrents
+- Établit des corrélations entre variables
+
+#### C. Phase de Prédiction
+Capacités du système :
+- Génération de prédictions sur 24h
+- Estimation des consommations futures
+- Évaluation de la fiabilité des prédictions
+
+### 3. Applications Pratiques 💡
+Utilisations possibles :
+- Planification énergétique
+- Optimisation de la consommation
+- Réduction des coûts
+- Amélioration de l'efficacité
+
+### 4. Avantages du Système 🌟
+- **Précision** : Analyse multi-factorielle
+- **Clarté** : Visualisations intuitives
+- **Évolutivité** : Apprentissage continu
+
+### 5. Pour les Débutants 🎓
+Imaginez ce système comme une "météo de la consommation électrique" : 
+- Il analyse le passé
+- Comprend les tendances
+- Prédit les besoins futurs
+
 ## 🚧 Améliorations Futures
 - [ ] Optimisation des hyperparamètres
 - [ ] Interface utilisateur web
